@@ -14,7 +14,7 @@ public class Ex01Multiplos {
 		
 		System.out.println("\nEntre com o primeiro número: ");
 		num2 = sc.nextInt();
-		
+		sc.close();
 		if(num1>num2) {
 			System.out.println("Intervalo inválido");
 		} else {
