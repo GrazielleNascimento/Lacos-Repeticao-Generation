@@ -13,7 +13,7 @@ public class Ex02QuantidadeParesImpares {
 		for (i = 1; i < 11; i++) {
 			System.out.print("Digite o " + i + "º" + "numero" + ":  ");
 			num = sc.nextInt();
-
+			sc.close();
 			if (num % 2 == 0) {
 				pares++;
 			} else {
@@ -24,7 +24,7 @@ public class Ex02QuantidadeParesImpares {
 		System.out.println("\nTotal de números pares: " + pares);
 		System.out.println("Total de números impares: " + impares);
 
-		sc.close();
+	
 	}
 
 }
